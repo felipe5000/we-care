@@ -1,0 +1,159 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0px 144px 76px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.header-link {
+    color: #989D9C;
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 23PX;
+    line-height: 29px;
+}
+
+
+
+button {
+    background: #665AE1;
+    color: #FFF;
+    width: 130px;
+    height: 41px;
+    border-radius: 24px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.7;
+}
+button:active{
+    opacity: 0.4;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    color: #515151;
+    line-height: 122px;
+}
+
+h2 {
+    color: #515151;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 71px;
+    position: relative;
+    bottom: 150px;
+}
+
+p {
+    color: #848484;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+    position: relative;
+    bottom: 100px;
+}
+
+img {
+    width: 568px;
+    height: 450px;
+    margin-left: 85px;
+    position: relative;
+    bottom: 50px;
+    display: inline-block;
+}
+
+.button-explore {
+    border-radius: 30px;
+    background: #ADFF00;
+    width: 239px;
+    height: 64px;
+    border: none;
+    color: #000;
+    position: relative;
+    bottom: 120px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    filter: drop-shadow(0px 4px 4px #000);
+}
+.button-explore:hover{
+    opacity: 0.7;
+}
+.button-explore:active{
+    opacity: 0.5;
+}
+
+@media (max-width: 800px) {
+
+    header {
+        display: none;
+    }
+
+    img {
+        width: 350px;
+        height: 270px;
+        flex-shrink: 0;
+        position: relative;
+        top: 100px;
+        right: 50px;
+    }
+
+    h1 {
+        width: 263px;
+        height: 52px;
+        color: #515151;
+        font-size: 60px;
+        position: relative;
+        top: 110px;
+    }
+
+    h2 {
+        color: #515151;
+        font-size: 30px;
+        font-weight: 500;
+        position: relative;
+        top: 150px;
+    }
+
+    p {
+        display: none;
+    }
+
+    .button-explore {
+        width: 239px;
+        height: 64px;
+        flex-shrink: 0;
+        border-radius: 20.5px;
+        background: #ADFF00;
+        position: relative;
+        top: 200px;
+        font-size: 28px;
+        font-weight: 700;
+          
+          
+    }
+
+
+
+
+}
